@@ -1,0 +1,56 @@
+package LittleAlchemycmbntn;
+
+public class Main {
+    public static void main(String[] args){
+        Combinations.flute();
+        Combinations.flyingfish();
+        Combinations.flyingsquirrel();
+        Combinations.fog();
+        Combinations.forceknight();
+        Combinations.forest();
+        Combinations.fork();
+        Combinations.fortunecookie();
+        Combinations.fossil();
+        Combinations.fountain();
+        Combinations.fox();
+        Combinations.frankensteinmonster();
+        Combinations.frenchfries();
+        Combinations.fridge();
+        Combinations.frog();
+        Combinations.frozenyogurt();
+        Combinations.fruittree();
+        Combinations.galaxy();
+        Combinations.galaxycluster();
+        Combinations.garage();
+        Combinations.garden();
+        Combinations.gardener();
+        Combinations.gas();
+        Combinations.geyser();
+        Combinations.ghost();
+        Combinations.gift();
+        Combinations.gingerbreadhouse();
+        Combinations.gingerbreadman();
+        Combinations.glacier();
+        Combinations.glass();
+        Combinations.glasses();
+        Combinations.gnome();
+        Combinations.goat();
+        Combinations.gold();
+        Combinations.golem();
+        Combinations.granite();
+        Combinations.grass();
+        Combinations.grave();
+        Combinations.gravestone();
+        Combinations.graveyard();
+        Combinations.greenhouse();
+        Combinations.grenade();
+        Combinations.grilledcheese();
+        Combinations.grimreaper();
+        Combinations.gun();
+        Combinations.gunpowder();
+        Combinations.gust();
+        Combinations.hacker();
+        Combinations.hail();
+        Combinations.ham();
+    }
+}
