@@ -11,10 +11,19 @@ public class Main {
         Scanner getInput = new Scanner(System.in);
         System.out.println("Enter the alphabet : ");
         char C = getInput.next().charAt(0);
-        if(C == 'd'){
+        if(C== 'a'){
+            A obj = new A();
+            obj.alphabet();
+        }
+        else if(C== 'b'){
+            B obj = new B();
+            obj.alphabet();
+        }
+        else if(C == 'd'){
             D obj = new D();
             obj.alphabet();
-        }else if(C == 'e'){
+        }
+        else if(C == 'e'){
             E obj = new E();
             obj.alphabet();
         }
