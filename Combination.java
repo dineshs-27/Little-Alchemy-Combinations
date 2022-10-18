@@ -1008,6 +1008,10 @@ public class Combination{
     public static void frozenyogurt(){
         System.out.println("cold+yogurt\nice+yogurt");
     }
+    
+     public static void fruit(){
+        System.out.println("time+flower\nwater+flower\nrain+flower\ntree+flower\ntree+farmer\nfarmer+orchard");
+    }
 
     public static void fruittree(){
         System.out.println("tree+fruit\nwood+fruit\nplant+fruit");
