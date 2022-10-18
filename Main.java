@@ -19,12 +19,20 @@ public class Main {
             B obj = new B();
             obj.alphabet();
         }
+         else if(C == 'c'){
+            C obj = new C();
+            obj.alphabet();
+        }
         else if(C == 'd'){
             D obj = new D();
             obj.alphabet();
         }
         else if(C == 'e'){
             E obj = new E();
+            obj.alphabet();
+        }
+         else if(C == 'f'){
+            F obj = new F();
             obj.alphabet();
         }
         else{
