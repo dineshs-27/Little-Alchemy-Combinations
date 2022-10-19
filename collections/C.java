@@ -1,6 +1,7 @@
 package LittleAlchemyCombinations.collections;
 
 import LittleAlchemyCombinations.Abstract;
+
 import LittleAlchemyCombinations.Combination;
 
 import java.util.Scanner;
@@ -8,7 +9,7 @@ import java.util.Scanner;
 public class C extends Abstract {
     @Override
     public void alphabet() {
-        System.out.println("cablecar\ncactus\ncage\ncake\ncamel\ncampfire\ncandle\ncandycane\ncannon\ncanvas\ncar\ncaramel\ncarbondioxide\ncarrot\ncart\ncashmere\ncastle\ncat\ncatnip\ncauldron\ncave\ncaviar\ncentaur\ncereal\nchain\nchainsaw\nchameleon\ncharcoal\ncheese\ncheeseburger\nchicken\nchickencoop\nchickensoup\nchickenwing\nchill\nchimney\nchocolate\nchocolatemilk\nchristmasstocking\nchristmastree\ncigarette\ncity\nclay\nclock\ncloset\ncloud\ncoal\ncoconut\ncoconutmilk\ncoffin\ncold\ncombustionengine\ncomputer\ncomputermouse\nconfetti\nconstellation\ncontainer\ncontinent\ncook\ncookbook\ncookie\ncookiecutter\ncookiedough\ncoral\ncorpse\ncotton\ncottoncandy\ncow\ncrayon\ncrow\ncrystalball\ncuckoo\ncup\ncurrent\ncuttingboard\ncyborg\ncyclist\n");
+        System.out.println("cablecar\ncactus\ncage\ncake\ncamel\ncampfire\ncandle\ncandycane\ncannon\ncanvas\ncar\ncaramel\ncarbondioxide\ncarrot\ncart\ncashmere\ncastle\ncat\ncatnip\ncauldron\ncave\ncaviar\ncentaur\ncereal\nchain\nchainsaw\nchameleon\ncharcoal\ncheese\ncheeseburger\nchicken\nchickencoop\nchickensoup\nchickenwing\nchill\nchimney\nchocolate\nchocolatemilk\nchristmasstocking\nchristmastree\ncigarette\ncity\nclay\nclock\ncloset\ncloud\ncoal\ncoconut\ncoconutmilk\ncoffin\ncold\ncombustionengine\ncomputer\ncomputermouse\nconfetti\nconstellation\ncontainer\ncontinent\ncook\ncookbook\ncookie\ncookiecutter\ncookiedough\ncoral\ncorpse\ncotton\ncottoncandy\ncow\ncrayon\ncrow\ncrystalball\ncuckoo\ncup\ncurrent\ncuttingboard\ncyborg\ncyclist");
         Scanner getInput = new Scanner(System.in);
         System.out.println("Enter the Word : ");
         String c = getInput.nextLine();
@@ -90,10 +91,6 @@ public class C extends Abstract {
             case "cuttingboard" -> Combination.cuttingboard();
             case "cyborg" -> Combination.cyborg();
             case "cyclist" -> Combination.cyclist();
-            default -> {
-                System.out.println("Wrong word is entered !");
-                System.out.println("Please try again !");
-            }
         }
     }
 }
