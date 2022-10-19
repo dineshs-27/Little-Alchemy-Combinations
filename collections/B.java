@@ -1,9 +1,9 @@
 package LittleAlchemyCombinations.collections;
 
 import LittleAlchemyCombinations.Abstract;
+
 import LittleAlchemyCombinations.Combination;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class B extends Abstract {
@@ -68,10 +68,6 @@ public class B extends Abstract {
             case "butter" -> Combination.butter();
             case "butterfly" -> Combination.butterfly();
             case "butterflynet" -> Combination.butterflynet();
-            default -> {
-                System.out.println("Wrong word is entered !");
-                System.out.println("Please try again !");
-            }
         }
     }
 }
