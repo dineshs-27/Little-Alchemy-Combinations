@@ -1,6 +1,7 @@
 package LittleAlchemyCombinations.collections;
 
 import LittleAlchemyCombinations.Abstract;
+
 import LittleAlchemyCombinations.Combination;
 
 import java.util.Scanner;
@@ -48,10 +49,6 @@ public class A extends Abstract {
             case "avalanche" -> Combination.avalanche();
             case "aviary" -> Combination.aviary();
             case "axe" -> Combination.axe();
-            default -> {
-                System.out.println("Wrong word is entered !");
-                System.out.println("Please try again !");
-            }
         }
     }
 }
