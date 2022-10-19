@@ -1169,7 +1169,7 @@ public class Combination{
         System.out.println("angel+music\nangel+musician\nwire+angel\nwire+music");
     }
 
-    public static void hay(){
+    public static void hey(){
         System.out.println("grass+scythe\nfarmer+grass\ngrass+sun\ngrass+grass\ngrass+barn\ngrass+farm\ngrass+pitchfork\nbarn+pitchfork\npitchfork+farm\nfarmer+pitchfork");
     }
 
