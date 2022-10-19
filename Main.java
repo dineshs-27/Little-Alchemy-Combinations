@@ -41,9 +41,5 @@ public class Main {
             H obj = new H();
             obj.alphabet();
         }
-        else{
-            System.out.println("Wrong alphabet is entered !");
-            System.out.println("Please try again !");
-        }
     }
 }
