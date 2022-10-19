@@ -1,6 +1,7 @@
 package LittleAlchemyCombinations.collections;
 
 import LittleAlchemyCombinations.Abstract;
+
 import LittleAlchemyCombinations.Combination;
 
 import java.util.Scanner;
@@ -8,7 +9,7 @@ import java.util.Scanner;
 public class F extends Abstract {
     @Override
     public void alphabet() {
-        System.out.println("fabric\nfactory\nfairytale\nfamily\nfamilytree\nfarm\nfarmer\nfaun\nfence\nfield\nfire\nfireextinguisher\nfirefighter\nfireplace\nfirestation\nfiretruck\nfirewall\nfireworks\nfish\nfishingrod\nflamethrower\nflashlight\nflood\nflour\nflower\nflute\nflyingfish\nflyingsquirrel\nfog\nforceknight\nforest\nfork\nfortunecookie\nfossil\nfountain\nfox\nfrankensteinmonster\nfrenchfries\nfridge\nfrog\nfrozenyogurt\nfruit\nfruittree\n");
+        System.out.println("fabric\nfactory\nfairytale\nfamily\nfamilytree\nfarm\nfarmer\nfaun\nfence\nfield\nfire\nfireextinguisher\nfirefighter\nfireplace\nfirestation\nfiretruck\nfirewall\nfireworks\nfish\nfishingrod\nflamethrower\nflashlight\nflood\nflour\nflower\nflute\nflyingfish\nflyingsquirrel\nfog\nforceknight\nforest\nfork\nfortunecookie\nfossil\nfountain\nfox\nfrankensteinmonster\nfrenchfries\nfridge\nfrog\nfrozenyogurt\nfruit\nfruittree");
         Scanner getInput = new Scanner(System.in);
         System.out.println("Enter the word : ");
         String f = getInput.nextLine();
@@ -56,10 +57,6 @@ public class F extends Abstract {
             case "frozenyogurt" -> Combination.frozenyogurt();
             case "fruit" -> Combination.fruit();
             case "fruittree" -> Combination.fruittree();
-            default -> {
-                System.out.println("Wrong word is entered !");
-                System.out.println("Please try again !");
-            }
         }
     }
 }
