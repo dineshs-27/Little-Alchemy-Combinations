@@ -41,5 +41,33 @@ public class Main {
             H obj = new H();
             obj.alphabet();
         }
+        else if(C == 'i'){
+            I obj = new I();
+            obj.alphabet();
+        }
+        else if(C == 'j'){
+            J obj = new J();
+            obj.alphabet();
+        }
+        else if(C == 'k'){
+            K obj = new K();
+            obj.alphabet();
+        }
+        else if(C == 'l'){
+            L obj = new L();
+            obj.alphabet();
+        }
+        else if(C == 'm'){
+            M obj = new M();
+            obj.alphabet();
+        }
+        else if(C == 'n'){
+            N obj = new N();
+            obj.alphabet();
+        }
+        else if(C == 'o'){
+            O obj = new O();
+            obj.alphabet();
+        }
     }
 }
