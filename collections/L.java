@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class L extends Abstract{
     @Override
     public void alphabet() {
-        System.out.println("Lake\nLamp\nLand\nLaptop\nLasso\nLava\nLava Lamp\nLawn\nLawn Mower\nLeaf\nLeather\nLegend\nLens\nLetter\nLibrarian\nLibrary\nLife\nLight\nLight Bulb\nLight Sword\nLighthouse\nLightning\nLion\nLiquid\nLittle Alchemy\nLivestock\nLizard\nLog Cabin\nLove\nLumberjack");
+        System.out.println(""lake\nlamp\nland\nlaptop\nlasso\nlava\nlavalamp\nlawn\nlawnmower\nleaf\nleather\nlegend\nlens\nletter\nlibrarian\nlibrary\nlife\nlight\nlightbulb\nlightsword\nlighthouse\nlightning\nlion\nliquid\nlittlealchemy\nlivestock\nlizard\nlogcabin\nlove\nlumberjack"");
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the word: ");
         String l = input.nextLine();
@@ -20,9 +20,9 @@ public class L extends Abstract{
             case "laptop" -> Combination.laptop();
             case "lasso" -> Combination.lasso();
             case "lava" -> Combination.lava();
-            case "lava lamp" -> Combination.lavalamp();
+            case "lavalamp" -> Combination.lavalamp();
             case "lawn" -> Combination.lawn();
-            case "lawn mower" -> Combination.lawnmover();
+            case "lawnmower" -> Combination.lawnmover();
             case "leaf" -> Combination.leaf();
             case "leather" -> Combination.leather();
             case "legend" -> Combination.legend();
@@ -32,16 +32,16 @@ public class L extends Abstract{
             case "library" -> Combination.library();
             case "life" -> Combination.life();
             case "light" -> Combination.light();
-            case "light bulb" -> Combination.lightbulb();
-            case "light sword" -> Combination.lightsword();
+            case "lightbulb" -> Combination.lightbulb();
+            case "lightsword" -> Combination.lightsword();
             case "lighthouse" -> Combination.lighthouse();
             case "lightning" -> Combination.lightning();
             case "lion" -> Combination.lion();
             case "liquid" -> Combination.liquid();
-            case "little alchemy" -> Combination.littlealchemy();
+            case "littlealchemy" -> Combination.littlealchemy();
             case "livestock" -> Combination.livestock();
             case "lizard" -> Combination.lizard();
-            case "log cabin" -> Combination.logcabin();
+            case "logcabin" -> Combination.logcabin();
             case "love" -> Combination.love();
             case "lumberjack" -> Combination.lumberjack();
         }
