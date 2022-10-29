@@ -1505,7 +1505,7 @@ public class Combination{
         System.out.println("rust+planet\ndesert+planet");
     }
 
-    public static void marshmallow(){
+    public static void marshmallows(){
         System.out.println("campfire+sugar");
     }
 
