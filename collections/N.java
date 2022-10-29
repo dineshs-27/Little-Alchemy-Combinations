@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class N extends Abstract{
     @Override
     public void alphabet() {
-        System.out.println("Narwhal\nNeedle\nNessie\nNest\nNet\nNewspaper\nNight\nNinja\nNinja Turtle\nNuts");
+        System.out.println("narwhal\nneedle\nnessie\nnest\nnet\nnewspaper\nnight\nninja\nninjaturtle\nnuts");
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the word: ");
         String n = input.nextLine();
@@ -22,7 +22,7 @@ public class N extends Abstract{
             case "newspaper" -> Combination.newspaper();
             case "night" -> Combination.night();
             case "ninja" -> Combination.ninja();
-            case "ninja turtle" -> Combination.ninjaturtle();
+            case "ninjaturtle" -> Combination.ninjaturtle();
             case "nuts" -> Combination.nuts();
         }
     }
