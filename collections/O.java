@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class O extends Abstract{
     @Override
     public void alphabet() {
-        System.out.println("Lake\nLamp\nLand\nLaptop\nLasso\nLava\nLava Lamp\nLawn\nLawn Mower\nLeaf\nLeather\nLegend\nLens\nLetter\nLibrarian\nLibrary\nLife\nLight\nLight Bulb\nLight Sword\nLighthouse\nLightning\nLion\nLiquid\nLittle Alchemy\nLivestock\nLizard\nLog Cabin\nLove\nLumberjack");
+        System.out.println("oasis\nobsidian\nocean\noil\nomelette\nopticalfiber\norchard\nore\norganicmatter\norigami\nostrich\nowl\noxygen\nozone");
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the word: ");
         String o = input.nextLine();
@@ -19,10 +19,10 @@ public class O extends Abstract{
             case "ocean" -> Combination.ocean();
             case "oil" -> Combination.oil();
             case "omelette" -> Combination.omelette();
-            case "optical fiber" -> Combination.opticalfibre();
+            case "opticalfiber" -> Combination.opticalfibre();
             case "orchard" -> Combination.orchard();
             case "ore" -> Combination.ore();
-            case "organic matter" -> Combination.organicmatter();
+            case "organicmatter" -> Combination.organicmatter();
             case "origami" -> Combination.origami();
             case "ostrich" -> Combination.ostrich();
             case "owl" -> Combination.owl();
