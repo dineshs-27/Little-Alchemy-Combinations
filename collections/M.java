@@ -9,23 +9,23 @@ import java.util.Scanner;
 public class M extends Abstract{
     @Override
     public void alphabet() {
-        System.out.println("Mac and Cheese\nMachine\nMagic\nMagma\nMailbox\nMailman\nMail truck\nManatee\nMap\nMaple Syrup\nMars\nMarshmallows\nMayonnaise\nMeat\nMedusa\nMercury\nMermaid\nMetal\nMeteor\nMeteoroid\nMicroscope\nMilk\nMilk Shake\nMineral\nMinotaur\nMirror\nMist\nMold\nMonarch\nMoney\nMonkey\nMoon\nMoon Rover\nMoss\nMoth\nMotion\nMotorcycle\nMountain\nMountain Goat\nMountain Range\nMouse\nMousetrap\nMud\nMummy\nMusic\nMusician");
+        System.out.println("macandcheese\nmachine\nmagic\nmagma\nmailbox\nmailman\nmailtruck\nmanatee\nmap\nmaplesyrup\nmars\nmarshmallows\nmayonnaise\nmeat\nmedusa\nmercury\nmermaid\nmetal\nmeteor\nmeteoroid\nmicroscope\nmilk\nmilkshake\nmineral\nminotaur\nmirror\nmist\nmold\nmonarch\nmoney\nmonkey\nmoon\nmoonrover\nmoss\nmoth\nmotion\nmotorcycle\nmountain\nmountaingoat\nmountainrange\nmouse\nmousetrap\nmud\nmummy\nmusic\nmusician");
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the word: ");
         String m = input.nextLine();
         switch (m) {
-            case "mac and cheese" -> Combination.macandcheese();
+            case "macandcheese" -> Combination.macandcheese();
             case "machine" -> Combination.machine();
             case "magic" -> Combination.magic();
             case "magma" -> Combination.magma();
             case "mailbox" -> Combination.mailbox();
             case "mailman" -> Combination.mailman();
-            case "mail truck" -> Combination.mailtruck();
+            case "mailtruck" -> Combination.mailtruck();
             case "manatee" -> Combination.manatee();
             case "map" -> Combination.map();
             case "maple" -> Combination.maplesyrup();
             case "mars" -> Combination.mars();
-            case "marshmallows" -> Combination.marshmallow();
+            case "marshmallows" -> Combination.marshmallows();
             case "mayonnaise" -> Combination.mayonnaise();
             case "meat" -> Combination.meat();
             case "medusa" -> Combination.medusa();
@@ -36,7 +36,7 @@ public class M extends Abstract{
             case "meteoroid" -> Combination.meteoroid();
             case "microscope" -> Combination.microscope();
             case "milk" -> Combination.milk();
-            case "milk shake" -> Combination.milkshake();
+            case "milkshake" -> Combination.milkshake();
             case "mineral" -> Combination.mineral();
             case "minotaur" -> Combination.minotaur();
             case "mirror" -> Combination.mirror();
@@ -46,14 +46,14 @@ public class M extends Abstract{
             case "money" -> Combination.money();
             case "monkey" -> Combination.monkey();
             case "moon" -> Combination.moon();
-            case "moon rover" -> Combination.moonrover();
+            case "moonrover" -> Combination.moonrover();
             case "moss" -> Combination.moss();
             case "moth" -> Combination.moth();
             case "motion" -> Combination.motion();
             case "motorcycle" -> Combination.motorcycle();
             case "mountain" -> Combination.mountain();
-            case "mountain goat" -> Combination.mountaingoat();
-            case "mountain range" -> Combination.mountainrange();
+            case "mountaingoat" -> Combination.mountaingoat();
+            case "mountainrange" -> Combination.mountainrange();
             case "mouse" -> Combination.mouse();
             case "mousetrap" -> Combination.mousetrap();
             case "mud" -> Combination.mud();
