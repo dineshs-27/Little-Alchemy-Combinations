@@ -9,12 +9,12 @@ import java.util.Scanner;
 public class J extends Abstract {
     @Override
     public void alphabet() {
-        System.out.println("Jack-O-Lantern\nJam\nJar\nJerky\nJuice\nJupiter");
+        System.out.println("jackoLantern\njam\njar\njerky\njuice\njupiter");
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the word: ");
         String j = input.nextLine();
         switch (j){
-            case "jack-o-lantern" -> Combination.jackolantern();
+            case "jackolantern" -> Combination.jackolantern();
             case "jam" -> Combination.jam();
             case "jar" -> Combination.jar();
             case "jerky" -> Combination.jerky();
