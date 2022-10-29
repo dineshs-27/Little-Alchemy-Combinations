@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class K extends Abstract{
     @Override
     public void alphabet() {
-        System.out.println("Kaiju\nKatana\nKite\nKnife\nKnight");
+        System.out.println("kaiju\nkatana\nkite\nknife\nknight");
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the word: ");
         String k = input.nextLine();
